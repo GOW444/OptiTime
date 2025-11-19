@@ -69,7 +69,56 @@ def build_and_solve(timeslots=None, same_room=True, solver_msg=False):
     cap = dict(zip(rooms["room"], rooms["capacity"]))
 
     # MILP problem
-    prob = pulp.LpProblem("OptiTime", pulp.LpMinimize)
+    print("[MILP] Initializing problem...")
+    prob = pulp.LpProblem('OptiTime', pulp.LpMinimize)
+
+    print("[MILP] Creating decision variables...")
+    x = pulp.LpVariable.dicts('x', (C, T, R), cat='Binary')
+    y = pulp.LpVariable.dicts('y', (C, R), cat='Binary') if same_room else None
+
+    print("[MILP] Adding same-room constraints...")
+    if same_room:
+        for c in C:
+            prob += pulp.lpSum(y[c][r] for r in allowed_rooms.get(c, R)) == 1
+
+    print("[MILP] Adding allowed-room & linking constraints...")
+    for c in C:
+        allowed = allowed_rooms.get(c, R)
+        for t in T:
+            for r in R:
+                if r not in allowed:
+                    prob += x[c][t][r] == 0
+                    if same_room:
+                        prob += y[c][r] == 0
+                else:
+                    if same_room:
+                        prob += x[c][t][r] <= y[c][r]
+
+    print("[MILP] Adding coverage constraints...")
+    for c in C:
+        prob += pulp.lpSum(x[c][t][r] for t in T for r in allowed_rooms.get(c, R)) == h[c]
+
+    print("[MILP] Adding room occupancy constraints...")
+    for t in T:
+        for r in R:
+            prob += pulp.lpSum(x[c][t][r] for c in C) <= 1
+
+    print("[MILP] Adding student conflict constraints...")
+    for i in range(len(C)):
+        for j in range(i+1, len(C)):
+            c1, c2 = C[i], C[j]
+            if conflict.get(c1, {}).get(c2, 0) == 1:
+                for t in T:
+                    prob += pulp.lpSum(x[c1][t][r] for r in allowed_rooms.get(c1, R)) + \
+                            pulp.lpSum(x[c2][t][r] for r in allowed_rooms.get(c2, R)) <= 1
+
+    print("[MILP] Adding objective function...")
+    prob += pulp.lpSum((cap[r] - enroll_counts.get(c, 0)) * x[c][t][r]
+                        for c in C for t in T for r in allowed_rooms.get(c, R))
+
+    print("[MILP] Finished building model.")
+    print("[MILP] Starting solver...")
+
 
     x = pulp.LpVariable.dicts("x", (C, T, R), cat="Binary")
     y = pulp.LpVariable.dicts("y", (C, R), cat="Binary") if same_room else None
