@@ -27,18 +27,7 @@ except FileNotFoundError:
     sys.exit(1)
 
 # C. Rooms 
-rooms_csv = """room,capacity
-A307,140
-A106,135
-A304,135
-P201,140
-P202,140
-R110,100
-A317,130
-R-106,120
-R-107,120
-R-108,120"""
-df_rooms = pd.read_csv(StringIO(rooms_csv))
+df_rooms = pd.read_csv('rooms.csv')
 print(f"Loaded {len(df_rooms)} rooms.")
 
 # ==========================================
