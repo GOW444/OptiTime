@@ -1,0 +1,506 @@
+[
+    {
+        "Day": "Mon",
+        "Slot": 2,
+        "Course": "C1",
+        "Room": "R110",
+        "Title": "AIM 101-Statistics for DS",
+        "Display": "C1 (R110)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 3,
+        "Course": "C1",
+        "Room": "A307",
+        "Title": "AIM 101-Statistics for DS",
+        "Display": "C1 (A307)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 4,
+        "Course": "C1",
+        "Room": "A307",
+        "Title": "AIM 101-Statistics for DS",
+        "Display": "C1 (A307)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 2,
+        "Course": "C1",
+        "Room": "A317",
+        "Title": "AIM 101-Statistics for DS",
+        "Display": "C1 (A317)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 4,
+        "Course": "C2",
+        "Room": "R110",
+        "Title": "AIM 102-Statistical Machine Learning",
+        "Display": "C2 (R110)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 6,
+        "Course": "C2",
+        "Room": "A106",
+        "Title": "AIM 102-Statistical Machine Learning",
+        "Display": "C2 (A106)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 2,
+        "Course": "C2",
+        "Room": "P202",
+        "Title": "AIM 102-Statistical Machine Learning",
+        "Display": "C2 (P202)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 3,
+        "Course": "C2",
+        "Room": "A106",
+        "Title": "AIM 102-Statistical Machine Learning",
+        "Display": "C2 (A106)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 3,
+        "Course": "C3",
+        "Room": "A317",
+        "Title": "DAS 101-Database Systems-Sec-B",
+        "Display": "C3 (A317)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 5,
+        "Course": "C3",
+        "Room": "R110",
+        "Title": "DAS 101-Database Systems-Sec-B",
+        "Display": "C3 (R110)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 1,
+        "Course": "C3",
+        "Room": "A307",
+        "Title": "DAS 101-Database Systems-Sec-B",
+        "Display": "C3 (A307)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 1,
+        "Course": "C3",
+        "Room": "P201",
+        "Title": "DAS 101-Database Systems-Sec-B",
+        "Display": "C3 (P201)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 6,
+        "Course": "C4",
+        "Room": "R-107",
+        "Title": "DAS 101P-Database Systems Lab-Sec-B",
+        "Display": "C4 (R-107)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 1,
+        "Course": "C4",
+        "Room": "R-108",
+        "Title": "DAS 101P-Database Systems Lab-Sec-B",
+        "Display": "C4 (R-108)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 4,
+        "Course": "C4",
+        "Room": "R-107",
+        "Title": "DAS 101P-Database Systems Lab-Sec-B",
+        "Display": "C4 (R-107)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 2,
+        "Course": "C4",
+        "Room": "R-107",
+        "Title": "DAS 101P-Database Systems Lab-Sec-B",
+        "Display": "C4 (R-107)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 5,
+        "Course": "C5",
+        "Room": "A106",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-B",
+        "Display": "C5 (A106)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 3,
+        "Course": "C5",
+        "Room": "A106",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-B",
+        "Display": "C5 (A106)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 5,
+        "Course": "C5",
+        "Room": "A304",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-B",
+        "Display": "C5 (A304)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 4,
+        "Course": "C5",
+        "Room": "P201",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-B",
+        "Display": "C5 (P201)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 6,
+        "Course": "C6",
+        "Room": "A106",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-A",
+        "Display": "C6 (A106)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 5,
+        "Course": "C6",
+        "Room": "A317",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-A",
+        "Display": "C6 (A317)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 6,
+        "Course": "C6",
+        "Room": "P201",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-A",
+        "Display": "C6 (P201)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 6,
+        "Course": "C6",
+        "Room": "P201",
+        "Title": "CSE 102-Data Structures and Algorithms-Sec-A",
+        "Display": "C6 (P201)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 4,
+        "Course": "C7",
+        "Room": "R-108",
+        "Title": "CSE 102P-DSA Lab-Sec-A",
+        "Display": "C7 (R-108)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 5,
+        "Course": "C7",
+        "Room": "R-107",
+        "Title": "CSE 102P-DSA Lab-Sec-A",
+        "Display": "C7 (R-107)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 3,
+        "Course": "C7",
+        "Room": "R-108",
+        "Title": "CSE 102P-DSA Lab-Sec-A",
+        "Display": "C7 (R-108)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 6,
+        "Course": "C7",
+        "Room": "R-107",
+        "Title": "CSE 102P-DSA Lab-Sec-A",
+        "Display": "C7 (R-107)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 2,
+        "Course": "C8",
+        "Room": "R-107",
+        "Title": "CSE 102P-DSA Lab-Sec-B",
+        "Display": "C8 (R-107)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 3,
+        "Course": "C8",
+        "Room": "R-108",
+        "Title": "CSE 102P-DSA Lab-Sec-B",
+        "Display": "C8 (R-108)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 2,
+        "Course": "C8",
+        "Room": "R-106",
+        "Title": "CSE 102P-DSA Lab-Sec-B",
+        "Display": "C8 (R-106)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 1,
+        "Course": "C8",
+        "Room": "R-107",
+        "Title": "CSE 102P-DSA Lab-Sec-B",
+        "Display": "C8 (R-107)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 5,
+        "Course": "C9",
+        "Room": "A304",
+        "Title": "EGC 121-Computer Architecture-Sec-A",
+        "Display": "C9 (A304)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 1,
+        "Course": "C9",
+        "Room": "R110",
+        "Title": "EGC 121-Computer Architecture-Sec-A",
+        "Display": "C9 (R110)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 3,
+        "Course": "C9",
+        "Room": "A304",
+        "Title": "EGC 121-Computer Architecture-Sec-A",
+        "Display": "C9 (A304)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 2,
+        "Course": "C9",
+        "Room": "P201",
+        "Title": "EGC 121-Computer Architecture-Sec-A",
+        "Display": "C9 (P201)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 6,
+        "Course": "C10",
+        "Room": "P202",
+        "Title": "EGC 121-Computer Architecture-Sec-B",
+        "Display": "C10 (P202)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 2,
+        "Course": "C10",
+        "Room": "P202",
+        "Title": "EGC 121-Computer Architecture-Sec-B",
+        "Display": "C10 (P202)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 5,
+        "Course": "C10",
+        "Room": "A304",
+        "Title": "EGC 121-Computer Architecture-Sec-B",
+        "Display": "C10 (A304)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 6,
+        "Course": "C10",
+        "Room": "A307",
+        "Title": "EGC 121-Computer Architecture-Sec-B",
+        "Display": "C10 (A307)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 5,
+        "Course": "C11",
+        "Room": "A307",
+        "Title": "EGC 123-Computer Networks-Sec-A",
+        "Display": "C11 (A307)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 6,
+        "Course": "C11",
+        "Room": "R110",
+        "Title": "EGC 123-Computer Networks-Sec-A",
+        "Display": "C11 (R110)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 2,
+        "Course": "C11",
+        "Room": "R110",
+        "Title": "EGC 123-Computer Networks-Sec-A",
+        "Display": "C11 (R110)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 3,
+        "Course": "C11",
+        "Room": "P201",
+        "Title": "EGC 123-Computer Networks-Sec-A",
+        "Display": "C11 (P201)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 1,
+        "Course": "C12",
+        "Room": "P202",
+        "Title": "EGC 123-Computer Networks-Sec-B",
+        "Display": "C12 (P202)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 5,
+        "Course": "C12",
+        "Room": "P201",
+        "Title": "EGC 123-Computer Networks-Sec-B",
+        "Display": "C12 (P201)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 6,
+        "Course": "C12",
+        "Room": "P202",
+        "Title": "EGC 123-Computer Networks-Sec-B",
+        "Display": "C12 (P202)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 6,
+        "Course": "C12",
+        "Room": "A307",
+        "Title": "EGC 123-Computer Networks-Sec-B",
+        "Display": "C12 (A307)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 4,
+        "Course": "C13",
+        "Room": "A317",
+        "Title": "DHS 101B-Economics II-Sec-A",
+        "Display": "C13 (A317)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 5,
+        "Course": "C13",
+        "Room": "A307",
+        "Title": "DHS 101B-Economics II-Sec-A",
+        "Display": "C13 (A307)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 3,
+        "Course": "C14",
+        "Room": "P201",
+        "Title": "DHS 101B-Economics II-Sec-B",
+        "Display": "C14 (P201)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 5,
+        "Course": "C14",
+        "Room": "R110",
+        "Title": "DHS 101B-Economics II-Sec-B",
+        "Display": "C14 (R110)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 1,
+        "Course": "C15",
+        "Room": "A106",
+        "Title": "AMS 103-Calculus-Sec-A",
+        "Display": "C15 (A106)"
+    },
+    {
+        "Day": "Tue",
+        "Slot": 4,
+        "Course": "C15",
+        "Room": "P202",
+        "Title": "AMS 103-Calculus-Sec-A",
+        "Display": "C15 (P202)"
+    },
+    {
+        "Day": "Thu",
+        "Slot": 1,
+        "Course": "C15",
+        "Room": "A307",
+        "Title": "AMS 103-Calculus-Sec-A",
+        "Display": "C15 (A307)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 3,
+        "Course": "C15",
+        "Room": "P201",
+        "Title": "AMS 103-Calculus-Sec-A",
+        "Display": "C15 (P201)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 4,
+        "Course": "C16",
+        "Room": "A317",
+        "Title": "AMS 103-Calculus-Sec-B",
+        "Display": "C16 (A317)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 2,
+        "Course": "C16",
+        "Room": "A106",
+        "Title": "AMS 103-Calculus-Sec-B",
+        "Display": "C16 (A106)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 4,
+        "Course": "C16",
+        "Room": "A307",
+        "Title": "AMS 103-Calculus-Sec-B",
+        "Display": "C16 (A307)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 6,
+        "Course": "C16",
+        "Room": "A304",
+        "Title": "AMS 103-Calculus-Sec-B",
+        "Display": "C16 (A304)"
+    },
+    {
+        "Day": "Mon",
+        "Slot": 4,
+        "Course": "C17",
+        "Room": "P202",
+        "Title": "Physical Education",
+        "Display": "C17 (P202)"
+    },
+    {
+        "Day": "Wed",
+        "Slot": 5,
+        "Course": "C17",
+        "Room": "A307",
+        "Title": "Physical Education",
+        "Display": "C17 (A307)"
+    },
+    {
+        "Day": "Fri",
+        "Slot": 2,
+        "Course": "C17",
+        "Room": "P201",
+        "Title": "Physical Education",
+        "Display": "C17 (P201)"
+    }
+]
