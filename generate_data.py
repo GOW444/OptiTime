@@ -20,10 +20,10 @@ def get_random_name():
 
 # 2. Define Course Groups
 # Group A: 60 Students with EXACT SAME courses (e.g., 1st Year Core)
-group_a_courses = ["C1", "C2", "C3", "C101"] 
+group_a_courses = ["C1", "C2", "C3", "C17"] 
 
 # Group B: 30 Students with ANOTHER set of same courses (e.g., 2nd Year Stream)
-group_b_courses = ["C4", "C5", "C6", "C201"]
+group_b_courses = ["C4", "C5", "C6"]
 
 # Group C: Random pool of electives for the remaining students
 elective_pool = ["C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16"]
@@ -33,7 +33,7 @@ data_rows = []
 
 # GENERATE GROUP A (60 Students - High Overlap)
 for i in range(1, 61):
-    student_id = f"BT202501{i:03d}" # Generates BT202501001 to ...060
+    student_id = f"BT2025{i:03d}" # Generates BT202501001 to ...060
     name = get_random_name()
     for course in group_a_courses:
         data_rows.append([student_id, name, course])
