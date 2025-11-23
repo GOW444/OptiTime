@@ -41,13 +41,13 @@ def load_data():
         return df_courses, df_students, df_schedule
 
     try:
-        df_students = pd.read_csv("enrollments.csv")
+        df_students = pd.read_csv("student_data_large.csv")
         required_cols = ["student_id", "student_name", "course_id"]
         if not all(col in df_students.columns for col in required_cols):
-            st.error(f"❌ 'enrollments.csv' missing required columns.")
+            st.error(f"❌ 'student_data_large.csv' missing required columns.")
             return df_courses, pd.DataFrame(), df_schedule
     except Exception as e:
-        st.error(f"❌ Error reading 'enrollments.csv': {e}")
+        st.error(f"❌ Error reading 'student_data_large.csv': {e}")
         return df_courses, pd.DataFrame(), df_schedule
 
     try:
@@ -271,4 +271,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
