@@ -1,0 +1,18 @@
+course_id,title,credits,instructor1,instructor2,room,batches,slots_required
+C1,AIM 101-Statistics for DS,4,Vaishnavi Gujjala,,A307,Btech DSAI-2025,4
+C2,AIM 102-Statistical Machine Learning,4,Aswin Kannan,,A307,Btech DSAI-2025,4
+C3,DAS 101-Database Systems-Sec-B,4,Uttam Kumar,,A307,Btech DSAI-2025,4
+C4,DAS 101P-Database Systems Lab-Sec-B,4,Vinu Venugopal,,A307,Btech DSAI-2025,4
+C5,CSE 102-Data Structures and Algorithms-Sec-B,4,Amit Chotopadhyaya,,A307,BTech DSAI 2025+BTech ECE iMTech ECE-2025,4
+C6,CSE 102-Data Structures and Algorithms-Sec-A,4,Muralidhara V N,,A106,BTech CSE + iMTech CSE-2025,4
+C7,CSE 102P-DSA Lab-Sec-A,4,Muralidhara V N,,"R-106,107,108",BTech CSE + iMTech CSE-2025,4
+C8,CSE 102P-DSA Lab-Sec-B,4,Saumya Shankar,,"R-106,107,108",BTech DSAI 2025 + BTech ECE iMTech ECE-2025,4
+C9,EGC 121-Computer Architecture-Sec-A,4,TBD,,A106,BTech CSE - 2025,4
+C10,EGC 121-Computer Architecture-Sec-B,4,TBD,,A304,iMTech CSE + BTech ECE iMTech ECE-2025,4
+C11,EGC 123-Computer Networks-Sec-A,4,Ajay Bakre,,A106,BTech CSE - 2025,4
+C12,EGC 123-Computer Networks-Sec-B,4,Badrinath R,,A304,iMTech CSE + BTech ECE iMTech ECE-2025,4
+C13,DHS 101B-Economics II-Sec-A,2,Amit Prakash,,A106,BTech CSE + iMTech CSE-2025,2
+C14,DHS 101B-Economics II-Sec-B,2,Amit Prakash,,A307,BTech DSAI + BTech ECE + iMTech ECE-2025,2
+C15,AMS 103-Calculus-Sec-A,4,Manisha Kulkarni,,A106,BTech CSE + iMTech CSE-2025,4
+C16,AMS 103-Calculus-Sec-B,4,Sanghasri Mukhopadhyay,,A307,BTech DSAI + BTech ECE iMTech ECE-2025,4
+C17,Physical Education,0,Neha Arora,,,All Batches,3
