@@ -10,7 +10,7 @@ import sys
 W1_TIME_PENALTY = 5     
 W2_PROF_OVERLOAD = 100  
 PROF_DAILY_LIMIT = 2    
-SOLVER_TIME_LIMIT = 100  # Stop after 30 seconds (CRITICAL FIX)
+SOLVER_TIME_LIMIT = 100  # Stop after 100 seconds (CRITICAL FIX)
 
 # ==========================================
 # 1. LOAD DATA 
@@ -24,7 +24,7 @@ except FileNotFoundError:
     print("Error: CSV files not found.")
     sys.exit(1)
 
-# Hardcoded Rooms
+# Rooms
 df_rooms = pd.read_csv('rooms.csv')
 
 # ==========================================
