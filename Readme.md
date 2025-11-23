@@ -14,8 +14,6 @@ OptiTime is a Python-based timetable generation project. It produces feasible an
 - A Streamlit-based frontend to visualize the generated `timetable.json` so students and faculty can view weekly schedules.
 
 ## Repository layout
-- data/  
-  - Contains generated data for rooms, enrollments, etc. This folder is populated by the data generation scripts.
 - generate_data.py  
   - Script to create dataset required by the models (rooms, enrollments, courses, etc.).
 - new_model.py  
@@ -24,11 +22,11 @@ OptiTime is a Python-based timetable generation project. It produces feasible an
   - Optimization model: includes a penalty/objective function to reduce student fatigue (late slots) and limit professor workloads (e.g., avoid >2 classes/day).
 - validate.py  
   - Checks the output timetable for constraint satisfaction and overall correctness.
-- results/timetable_output.json  
+- timetable_output.json  
   - The generated timetable produced by either model (feasibility or penalty) — used by the frontend for display.
 - requirements.txt  
   - Python dependencies required to run the project.
-- frontend/visualize.py  
+- visualize.py  
   - Streamlit app that renders the timetable for easy viewing (the filename may vary; replace accordingly when running).
 
 
