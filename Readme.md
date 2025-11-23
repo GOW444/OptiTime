@@ -49,11 +49,8 @@ OptiTime is a Python-based timetable generation project. It produces feasible an
 ## Typical usage / example workflow
 
 1. Generate data
-   - For a basic dataset:
      - python generate_data.py
-   - For larger/complex datasets (or to regenerate with increased room capacities):
-     - python gen_data_comp.py
-   These scripts populate the `data/` folder with room definitions, enrollment lists, course requirements, etc. (Note: we increased room capacities in the generator to allow creating timetables for larger datasets.)
+   These scripts populate with room definitions, enrollment lists, course requirements, etc. (Note: we increased room capacities in the generator to allow creating timetables for larger datasets.)
 
 2. Run the feasibility model (no objective)
    - python new_model.py
