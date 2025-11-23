@@ -85,7 +85,7 @@ OptiTime is a Python-based timetable generation project. It produces feasible an
 - Frontend not loading timetable: ensure `timetable_output.json` exists in the expected location (project root or a path the frontend expects).
 
 ## Contributing
-Contributions welcome. Suggested workflow:
+Contributions are welcome.
 
 
 ## Contact
